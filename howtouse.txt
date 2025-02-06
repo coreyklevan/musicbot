@@ -1,0 +1,42 @@
+Commands:
+
+    !join
+        Joins the voice channel that the user is in.
+        If the bot is already in a voice channel, it will not join another one.
+
+    !play <link>
+        Plays a song in the voice channel.
+        If you provide a YouTube link, it will play that song directly.
+        If you provide a song name, it will search YouTube for the song and play it.
+
+    !pause
+        Pauses the currently playing song.
+
+    !resume
+        Resumes the song if it was paused.
+
+    !stop
+        Stops the song and disconnects the bot from the voice channel.
+        Clears the song queue if any.
+
+    !skip
+        Skips the currently playing song and plays the next song in the queue.
+
+    !skipto <index>
+        Skips to a specific song in the queue by index.
+        Example: !skipto 2 will skip to the 3rd song in the queue.
+
+    !clear_queue
+        Clears the entire song queue.
+
+    !add <link or song name>
+        Adds a song or playlist to the queue.
+        If a playlist is added, all songs from that playlist will be added to the queue.
+
+    !queue
+        Displays the current song queue in the chat.
+        The queue is shown in chunks if it is too large for a single message.
+
+    !volume <0-100>
+        Adjusts the volume of the currently playing song.
+        Volume is a percentage, where 0 is mute and 100 is the maximum volume.
