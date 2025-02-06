@@ -9,7 +9,7 @@ import urllib.parse, urllib.request, re
 
 def run_bot():
     load_dotenv()
-    TOKEN = ("MTE1NTg0NjY5NDgwNjc2OTczNg.Gzxo1y.VPuw91vO6u11j_ZJC1DVV0wM_1xOH2rIK6aQAA")    
+    TOKEN = ("DISCORD_TOKEN_HERE")    
     intents = discord.Intents.default()
     intents.message_content = True
     client = commands.Bot(command_prefix="!", intents=intents)
